@@ -70,8 +70,8 @@ a:link {
   display: flex;
   align-items: flex-start;
   flex-direction: column-reverse;
+  height: 65px;
   width: 100%;
-  height: 100%;
 }
 .lower-header-right-down {
   background-color: #23001b;
