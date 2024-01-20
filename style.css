@@ -70,12 +70,15 @@ a:link {
   display: flex;
   align-items: flex-start;
   flex-direction: column-reverse;
-  height: 65px;
+  justify-items: center;
+  height: 100px;
   width: 100%;
+  box-sizing: border-box;
+  position: relative;
 }
 .lower-header-right-down {
   background-color: #23001b;
-  height: 25px;
+  height: 65%;
   margin: 1.5em 0 0;
   margin-bottom: 30px;
   display: flex;
@@ -108,6 +111,7 @@ a:link {
   display: flex;
   margin-left: auto;
   gap: 15px;
+  height: 25%;
 }
 .lower-header-right-up button {
   background-color: #23001b;
