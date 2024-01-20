@@ -126,3 +126,88 @@ a:link {
   width: 20px;
   height: 20px;
 }
+section {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 86%;
+}
+.first-article-section {
+  display: flex;
+  gap: 1.5%;
+}
+.fa-left {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  gap: 20px;
+}
+.fa-left a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.fa-left h3 {
+  color: black;
+}
+.fa-left p {
+  color: grey;
+  font-size: 0.9vw;
+}
+.fa-left img:hover {
+  opacity: 0.85;
+}
+.fa-left {
+  font-weight: 500;
+}
+.fa-left h3:hover {
+  opacity: 0.95;
+}
+.fa-middle {
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+}
+.fa-middle a {
+  height: 76%;
+}
+.fa-middle img {
+  height: 100%;
+  width: 100%;
+}
+.fa-middle div {
+  position: relative;
+  top: -9%;
+  width: 80%;
+  background-color: white;
+}
+.fa-middle p {
+  margin-top: 10px;
+  color: grey;
+  font-size: 0.9vw;
+}
+.fa-middle h1 {
+  color: #6a0432;
+  font-size: 2.2961572031vw;
+  font-weight: 800;
+}
+.fa-right {
+  width: 17%;
+}
+.fa-right p {
+  color: #88365b;
+  font-size: 0.95vw;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.fa-right a h6 {
+  color: black;
+  font-size: 1vw;
+  margin-bottom: 9px;
+  font-weight: 300;
+}
+.fa-right hr {
+  margin-bottom: 9px;
+  border-top: 0.2px dashed #cfcfcf;
+}
